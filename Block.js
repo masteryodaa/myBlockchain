@@ -15,7 +15,7 @@ class Block{
     }
 }
 
-const newBlock = new Block(Date, 12345, 67890, 'yoda got 2 BC');
+const newBlock = new Block(Date(), 12345, 67890, 'yoda got 2 BC');
 
 console.log(newBlock.toString())
 
